@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background song -->
+  <audio id="bgSong" autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2021/12/14/audio_3f10c9f8a7.mp3?filename=romantic-instrumental-11252.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- Main container -->
+  <div class="container">
+
+    <!-- Page 1 -->
+    <div class="page active" id="page1">
+      <h1>Distance didn’t change my feelings for you.<br>It only taught me how deeply I love you.</h1>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page" id="page2">
+      <h1>Some days I miss you quietly,<br>some nights I miss you loudly…<br>but every moment, I choose you.</h1>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page" id="page3">
+      <h1>You are not beside me,<br>yet you are with me — in my thoughts, my heart, my every tomorrow.</h1>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page" id="page4">
+      <h1>This is our first New Year,<br>and even though we can’t hold hands tonight,<br>my heart is holding yours — tightly, honestly, forever.</h1>
+    </div>
+
+    <!-- Page 5 (Handwritten Letter 1) -->
+    <div class="page" id="page5">
+      <h2>Some things are better written by hand…<br>because the heart speaks louder than words.</h2>
+      <img src="letter1.jpg" alt="Handwritten Letter 1">
+    </div>
+
+    <!-- Page 6 (Handwritten Letter 2) -->
+    <div class="page" id="page6">
+      <img src="letter2.jpg" alt="Handwritten Letter 2">
+    </div>
+
+    <!-- Page 7 (Closing Page) -->
+    <div class="page" id="page7">
+      <h1>This page may end here,<br>but my love for you doesn’t —<br>not tonight, not this year, not ever.</h1>
+    </div>
+
+    <!-- Navigation Button -->
+    <button id="nextBtn">Next ➡️</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background song -->
+  <audio id="bgSong" autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2021/12/14/audio_3f10c9f8a7.mp3?filename=romantic-instrumental-11252.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Floating hearts -->
+  <div class="hearts"></div>
+
+  <!-- Main container -->
+  <div class="container">
+
+    <!-- Page 1 -->
+    <div class="page active" id="page1">
+      <h1>Distance didn’t change my feelings for you.<br>It only taught me how deeply I love you.</h1>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page" id="page2">
+      <h1>Some days I miss you quietly,<br>some nights I miss you loudly…<br>but every moment, I choose you.</h1>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page" id="page3">
+      <h1>You are not beside me,<br>yet you are with me — in my thoughts, my heart, my every tomorrow.</h1>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page" id="page4">
+      <h1>This is our first New Year,<br>and even though we can’t hold hands tonight,<br>my heart is holding yours — tightly, honestly, forever.</h1>
+    </div>
+
+    <!-- Page 5 (Handwritten Letter 1) -->
+    <div class="page" id="page5">
+      <h2>Some things are better written by hand…<br>because the heart speaks louder than words.</h2>
+      <img src="letter1.jpg" alt="Handwritten Letter 1">
+    </div>
+
+    <!-- Page 6 (Handwritten Letter 2) -->
+    <div class="page" id="page6">
+      <img src="letter2.jpg" alt="Handwritten Letter 2">
+    </div>
+
+    <!-- Page 7 (Closing Page) -->
+    <div class="page" id="page7">
+      <h1>This page may end here,<br>but my love for you doesn’t —<br>not tonight, not this year, not ever.</h1>
+    </div>
+
+    <!-- Navigation Button -->
+    <button id="nextBtn">Next ➡️</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

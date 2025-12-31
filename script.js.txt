@@ -1,0 +1,14 @@
+let currentPage = 1;
+const totalPages = 7;
+
+const nextBtn = document.getElementById("nextBtn");
+
+nextBtn.addEventListener("click", () => {
+  if(currentPage < totalPages){
+    document.getElementById(`page${currentPage}`).classList.remove("active");
+    currentPage++;
+    document.getElementById(`page${currentPage}`).classList.add("active");
+  } else {
+    alert("Happy New Year ❤️");
+  }
+});
